@@ -25,7 +25,7 @@ public class ApiUserTests {
     @DisplayName("Выборка пользователей со второй странице")
     void getUsersSuccessTestSecondPage() {
         TestData data = new TestData();
-        GetUsersResponseModel response = step("Делаем запрос", () -> given()
+        GetUsersResponseModel response = step("Отправляем запрос", () -> given()
                 .spec(successfulRequest)
                 .when()
                 .get(GET_LIST_USER_URL + data.pageId)
