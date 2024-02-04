@@ -1,6 +1,6 @@
 # Проект по автоматизации тестирования API для сайта компании [Regres.IN](https://reqres.in/)
 
-![regresin](media/screen/regresin.jpg "Главная страница")
+![regresin](regresin.jpg "Главная страница")
 
 <p>Сервис для тестирования API</p>
 
@@ -98,7 +98,6 @@ ____
 <img title="Allure TestOps DashBoard" src="media/screen/DashboardTestOps.png">
 </p>
 
-![jenkins](media/screen/DashboardTestOps.png")
 ____
 <a id="jira"></a>
 ## <img width="4%" style="vertical-align:middle" title="Jira" src="media/logo/Jira.svg"> </a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1096"> Jira </a>
