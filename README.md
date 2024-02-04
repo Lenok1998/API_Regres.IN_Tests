@@ -98,15 +98,14 @@ ____
 <img title="Allure TestOps DashBoard" src="media/screen/DashboardTestOps.png">
 </p>
 
-![jenkins](media/screen/runAllureTestOps.png "График Jenkins")
+![jenkins](media/screen/DashboardTestOps.png")
 ____
 <a id="jira"></a>
 ## <img width="4%" style="vertical-align:middle" title="Jira" src="media/logo/Jira.svg"> </a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1096"> Jira </a>
 
-Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в задаче отображается, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
-
+Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в задаче отображается, какие тест-кейсы были написаны в рамках задачи и результат их прогона.T
 <p align="center">
-<img title="Jira Task" src="media/screen/taskinjira.png">
+<img title="Jira Task" src="media/screen/taskjira.png">
 </p>
 
 ____
