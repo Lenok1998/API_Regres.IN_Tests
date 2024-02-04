@@ -1,6 +1,6 @@
 # Проект по автоматизации тестирования API для сайта компании [Regres.IN](https://reqres.in/)
 
-![regresin](regresin.jpg "Главная страница")
+![regresin](reqresin.jpg "Главная страница")
 
 <p>Сервис для тестирования API</p>
 
