@@ -85,7 +85,7 @@ ____
 
 
 <p align="center">
-<img title="Allure Overview" src="media/screen/Allure_Report.png">
+<img title="Allure Overview" src="Allure_Report.png">
 </p>
 
 ____
