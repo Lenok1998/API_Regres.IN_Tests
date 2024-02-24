@@ -1,11 +1,8 @@
 # Проект по автоматизации тестирования API для сайта компании [Regres.IN](https://reqres.in/)
 
-![regresin](media/screen/regresin.jpg "Главная страница")
+![regresin](reqresin.jpg "Главная страница")
 
-<p>ООО ИК «СИБИНТЕК» работает на рынке ИТ-сервиса и аутсорсинга с 1999 года и является одним из лидеров отрасли.
-В портфеле компетенций «СИБИНТЕК» представлен широкий спектр услуг сервисного обслуживания предприятий, системной интеграции, автоматизации технологических процессов, разработки и внедрения информационных систем, бизнес-консалтинга и сервисной интеграции, проектной деятельности и бизнес-приложений, комплексного создания ИТ-инфраструктуры и внедрения систем связи.
-
- </p>
+<p>Сервис для тестирования API</p>
 
 ##  Содержание:
 
@@ -17,8 +14,6 @@
 - <a href="#allure"> Интеграция с Allure TestOps</a>
 - <a href="#jira"> Интеграция с Jira</a>
 - <a href="#tg"> Уведомления в Telegram с использованием бота</a>
-- <a href="#video"> Видео примера запуска тестов в Selenoid</a>
-
 ____
 <a id="tools"></a>
 ## Используемые инструменты
@@ -75,22 +70,22 @@ gradle clean test  запуск всех тестов
 ```
 ____
 <a id="jenkins"></a>
-## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins.svg"> </a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/ElenaMalysheva98-23-17/"> Jenkins </a>
+## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins.svg"> </a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/ElenaMalysheva98_23_qa-guru21ApiModel/"> Jenkins </a>
 Для доступа в Jenkins необходима регистрация на ресурсе [Jenkins](https://jenkins.autotests.cloud/)
 
 ![build](media/screen/Build_Jenkins.png "Сборка Jenkins")
-Для запуска сборки необходимо перейти в раздел <code>Build with parameters</code>, выбрать необходимые параметры и нажать кнопку <code>Build</code>.
+Для запуска сборки необходимо перейти в раздел <code>Build Now</code>,и нажать кнопку <code>Build</code>.
 
 <p>После выполнения сборки, в блоке <code>Build History</code> напротив номера сборки появятся значки <code>Allure Report</code> и <code>Allure TestOps</code>, при клике на которые откроется страница с сформированным html-отчетом и тестовой документацией соответственно.</p>
 
 ![Siute](media/screen/TestSiute.png "Тест-кейсы")
 ____
 <a id="allureReport"></a>
-## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure_Report.svg"> </a> Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/ElenaMalysheva98_23_qa-guru21ApiModel/"> Allure-отчета </a>
+## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/logo/Allure_Report.svg"> </a> Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/ElenaMalysheva98_23_qa-guru21ApiModel/allure/"> Allure-отчета </a>
 
 
 <p align="center">
-<img title="Allure Overview" src="media/screen/Allure_Report.png">
+<img title="Allure Overview" src="Allure_Report.png">
 </p>
 
 ____
@@ -103,15 +98,13 @@ ____
 <img title="Allure TestOps DashBoard" src="media/screen/DashboardTestOps.png">
 </p>
 
-![jenkins](media/screen/runAllureTestOps.png "График Jenkins")
 ____
 <a id="jira"></a>
 ## <img width="4%" style="vertical-align:middle" title="Jira" src="media/logo/Jira.svg"> </a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1096"> Jira </a>
 
-Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в задаче отображается, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
-
+Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в задаче отображается, какие тест-кейсы были написаны в рамках задачи и результат их прогона.T
 <p align="center">
-<img title="Jira Task" src="media/screen/taskinjira.png">
+<img title="Jira Task" src="media/screen/taskjira.png">
 </p>
 
 ____
