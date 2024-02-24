@@ -7,7 +7,8 @@ import io.restassured.specification.ResponseSpecification;
 
 import static helpers.CustomAllureListener.withCustomTemplates;
 import static io.restassured.RestAssured.with;
-import static io.restassured.filter.log.LogDetail.*;
+import static io.restassured.filter.log.LogDetail.BODY;
+import static io.restassured.filter.log.LogDetail.STATUS;
 
 public class Spec {
     public static RequestSpecification successfulRequest = with()
@@ -15,9 +16,8 @@ public class Spec {
             .log().params()
             .log().uri()
             .log().body()
-            .contentType(ContentType.JSON)
-            .baseUri("https://reqres.in")
-            .basePath("/api");
+            .contentType(ContentType.JSON);
+
 
     public static ResponseSpecification successfulResponse = new ResponseSpecBuilder()
             .expectStatusCode(200)
@@ -25,14 +25,12 @@ public class Spec {
             .log(BODY)
             .build();
 
-    public static ResponseSpecification createdResponse = new ResponseSpecBuilder()
-            .expectStatusCode(201)
+    public static ResponseSpecification loggingResponse = new ResponseSpecBuilder()
             .log(STATUS)
             .log(BODY)
             .build();
 
-    public static ResponseSpecification successfulResponseNoContent = new ResponseSpecBuilder()
-            .expectStatusCode(204)
+    public static ResponseSpecification loggingStatus = new ResponseSpecBuilder()
             .log(STATUS)
             .build();
 
