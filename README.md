@@ -92,7 +92,7 @@ ____
 
 
 <p align="center">
-<img title="Allure Overview" src="Allure_Report1.png">
+<img title="Allure Overview" src="Allure_Report.png">
 </p>
 
 ____
