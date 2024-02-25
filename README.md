@@ -80,7 +80,7 @@ ____
 
 ## 🔖: Тест-сьюиты
 
-![siute](media/screen/testsuite.png "Тест-сьюты")
+![siute](media/screen/testsuit.png "Тест-сьюты")
 
 ## :bar_chart: Графики
 
