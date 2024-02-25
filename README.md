@@ -73,7 +73,7 @@ ____
 ## <img width="4%" style="vertical-align:middle" title="Jenkins" src="media/logo/Jenkins.svg"> </a> Сборка в <a target="_blank" href=""> Jenkins </a>
 Для доступа в Jenkins необходима регистрация на ресурсе [Jenkins](https://jenkins.autotests.cloud/)
 
-![build](media/screen/Build_Jenkins.png "Сборка Jenkins")
+![build](media/screen/Build_Jenkins1.png "Сборка Jenkins")
 Для запуска сборки необходимо перейти в раздел <code>Build Now</code>,и нажать кнопку <code>Build</code>.
 
 <p>После выполнения сборки, в блоке <code>Build History</code> напротив номера сборки появятся значки <code>Allure Report</code> и <code>Allure TestOps</code>, при клике на которые откроется страница с сформированным html-отчетом и тестовой документацией соответственно.</p>
@@ -92,7 +92,7 @@ ____
 
 
 <p align="center">
-<img title="Allure Overview" src="Allure_Report.png">
+<img title="Allure Overview" src="Allure_Report1.png">
 </p>
 
 ____
@@ -122,7 +122,7 @@ ____
 
 Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в задаче отображается, какие тест-кейсы были написаны в рамках задачи и результат их прогона.T
 <p align="center">
-<img title="Jira Task" src="media/screen/taskinjira.png">
+<img title="Jira Task" src="media/screen/taskinjira1.png">
 </p>
 
 ____
